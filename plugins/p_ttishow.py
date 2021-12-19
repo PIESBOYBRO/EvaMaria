@@ -52,7 +52,7 @@ async def save_group(bot, message):
                     await (temp.MELCOW['welcome']).delete()
                 except:
                     pass
-            temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>")
+            temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b> \n\n🔺 𝙹𝚞𝚜𝚝 𝚂𝚎𝚗𝚍 𝚝𝚑𝚎 '𝚌𝚘𝚛𝚛𝚎𝚌𝚝 𝚗𝚊𝚖𝚎 𝚘𝚏 𝚝𝚑𝚎 𝚖𝚘𝚟𝚒𝚎 𝚊𝚗𝚍 𝚝𝚑𝚎 𝚛𝚎𝚕𝚎𝚊𝚜𝚎 𝚍𝚊𝚝𝚎' 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝. \n🖇 𝐄𝐱 :-  𝚁𝚊𝚓𝚊 𝚁𝚊𝚗𝚒 2013 ✅️ \n :- 𝚁𝚊𝚓𝚊 𝚁𝚊𝚗𝚒 ✅️ \n :- 𝚁𝚊𝚓𝚊 𝚁𝚊𝚗𝚒 𝚄𝚗𝚍𝚘/𝚟𝚎𝚗𝚊𝚖/𝚠𝚊𝚗𝚝 ✖️ \n[ ❌️ 𝙳𝚘𝚗𝚝 𝚄𝚜𝚎 𝚠𝚘𝚛𝚍𝚜 𝙻𝚒𝚔𝚎 :-  𝚖𝚘𝚟𝚒𝚎/𝚠𝚊𝚗𝚝/ 𝚕𝚊𝚗𝚐𝚞𝚊𝚐𝚎/𝚄𝚗𝚍𝚘/𝚟𝚎𝚗𝚊𝚖❗️]")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
