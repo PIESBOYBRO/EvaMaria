@@ -394,7 +394,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer('🔸  Check PM, I have sent files in pm ➠  \n 🔹നിങ്ങളുടെ പേഴ്സണൽ മെസ്സേജിൽ നോക്കുക ഞാൻ നിങ്ങളാവശ്യപ്പെട്ട മൂവി അയച്ചിട്ടുണ്ട് 🤗 ⎆',show_alert = True)
+                await query.answer('🔸  Check PM, I have sent files in pm ➠ \n🔹  നിങ്ങളുടെ പേഴ്സണൽ മെസ്സേജിൽ നോക്കുക ഞാൻ നിങ്ങളാവശ്യപ്പെട്ട മൂവി അയച്ചിട്ടുണ്ട് 🤗 ⎆',show_alert = True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !',show_alert = True)
         except PeerIdInvalid:
@@ -738,7 +738,7 @@ async def advantage_spell_chok(msg):
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?", reply_markup=InlineKeyboardMarkup(btn))
+    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?\n നിങ്ങൾ ഉദ്ദേശിക്കുന്നത് താഴെ ഉള്ളവയിൽ ഏദെങ്കിലും ആണങ്കിൽ അതിൽ തൊടുക. ", reply_markup=InlineKeyboardMarkup(btn))
     
 
 
