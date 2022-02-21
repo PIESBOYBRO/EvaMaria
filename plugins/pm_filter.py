@@ -437,7 +437,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('⚡️ 𝐌𝐚፝֟𝐬𝐭𝐞𝐫 ⚡️', url='https://t.me/MovieWorld_Support')
- 𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ⎆')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
