@@ -21,7 +21,7 @@ BTN_URL_REGEX = re.compile(
     r"(\[([^\[]+?)\]\((buttonurl|buttonalert):(?:/{0,2})(.+?)(:same)?\))"
 )
 
-imdb = IMDb() 
+imdb = IMDb()  
 
 BANNED = {}
 SMART_OPEN = '“'
@@ -38,6 +38,7 @@ class temp(object):
     MELCOW = {}
     U_NAME = None
     B_NAME = None
+    SETTINGS = {}
 
 async def is_subscribed(bot, query):
     try:
@@ -50,7 +51,7 @@ async def is_subscribed(bot, query):
         if user.status != 'kicked':
             return True
 
-    return False
+return False
 
 async def get_poster(query, bulk=False, id=False, file=None):
     if not id:
